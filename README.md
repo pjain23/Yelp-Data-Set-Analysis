@@ -12,3 +12,8 @@ Finally, we were able to examine the metadata from this chunk of 1000 reviews. N
 Conclusions
 It should be noted that the mean number of “Cool” votes for each review was 0.524000, while the mean amount of “Funny” votes was 0.452000, and the mean amount of “Useful” votes was 1.271000. What is most telling is that these metrics have very long tails. The 50th percentile for each of these metrics is 0. The 75th percentile “Cool” review had only 1 vote; the 75th percentile “Funny” vote was 0; the 75th percentile “Useful” vote was only 1. The max amount for each was 15 “Cool” votes, 14 “Funny” votes, and 23 “Useful” votes. Since our means were all larger than the 50th percentile for each metric, our largest values had a very significant impact on each mean.
 Our mean star rating was 3.654000, with a 50th percentile measure of 4.0. Thus, very low ratings of 1 star had a significant impact on the mean.
+
+
+You can find the Jupyter Notebook file here:
+
+Python Script.ipynb
